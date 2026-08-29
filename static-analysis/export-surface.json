@@ -1,0 +1,2509 @@
+{
+  "package": "com.duckduckgo.mobile.android.debug",
+  "version_name": "5.294.0",
+  "components": [
+    {
+      "name": "com.duckduckgo.app.browser.webview.WebViewDevSettingsActivity",
+      "type": "activity",
+      "exported": true,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.dev.settings.DevSettingsActivity",
+      "type": "activity",
+      "exported": null,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.dev.settings.notifications.NotificationsActivity",
+      "type": "activity",
+      "exported": null,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.audit.AuditSettingsActivity",
+      "type": "activity",
+      "exported": null,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.dev.settings.customtabs.CustomTabsInternalSettingsActivity",
+      "type": "activity",
+      "exported": null,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.dev.settings.tabs.DevTabsActivity",
+      "type": "activity",
+      "exported": null,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.dev.settings.onboarding.OnboardingDevSettingsActivity",
+      "type": "activity",
+      "exported": null,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.dev.settings.modals.ModalCoordinatorDevSettingsActivity",
+      "type": "activity",
+      "exported": null,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "type": "provider",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "androidx.core.content.FileProvider",
+      "type": "provider",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.launch.LaunchBridgeActivity",
+      "type": "activity",
+      "exported": true,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.MAIN"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.app.launch.LauncherSilhoutte",
+      "type": "activity-alias",
+      "exported": true,
+      "enabled": false,
+      "permission": null,
+      "target_activity": "com.duckduckgo.app.launch.LaunchBridgeActivity",
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.MAIN"
+          ],
+          "categories": [
+            "android.intent.category.LAUNCHER",
+            "android.intent.category.APP_BROWSER"
+          ],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.app.launch.LauncherPurple",
+      "type": "activity-alias",
+      "exported": true,
+      "enabled": false,
+      "permission": null,
+      "target_activity": "com.duckduckgo.app.launch.LaunchBridgeActivity",
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.MAIN"
+          ],
+          "categories": [
+            "android.intent.category.LAUNCHER",
+            "android.intent.category.APP_BROWSER"
+          ],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.app.launch.LauncherGreen",
+      "type": "activity-alias",
+      "exported": true,
+      "enabled": false,
+      "permission": null,
+      "target_activity": "com.duckduckgo.app.launch.LaunchBridgeActivity",
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.MAIN"
+          ],
+          "categories": [
+            "android.intent.category.LAUNCHER",
+            "android.intent.category.APP_BROWSER"
+          ],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.app.launch.LauncherGold",
+      "type": "activity-alias",
+      "exported": true,
+      "enabled": false,
+      "permission": null,
+      "target_activity": "com.duckduckgo.app.launch.LaunchBridgeActivity",
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.MAIN"
+          ],
+          "categories": [
+            "android.intent.category.LAUNCHER",
+            "android.intent.category.APP_BROWSER"
+          ],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.app.launch.LauncherBlack",
+      "type": "activity-alias",
+      "exported": true,
+      "enabled": false,
+      "permission": null,
+      "target_activity": "com.duckduckgo.app.launch.LaunchBridgeActivity",
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.MAIN"
+          ],
+          "categories": [
+            "android.intent.category.LAUNCHER",
+            "android.intent.category.APP_BROWSER"
+          ],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.app.launch.LauncherBlue",
+      "type": "activity-alias",
+      "exported": true,
+      "enabled": false,
+      "permission": null,
+      "target_activity": "com.duckduckgo.app.launch.LaunchBridgeActivity",
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.MAIN"
+          ],
+          "categories": [
+            "android.intent.category.LAUNCHER",
+            "android.intent.category.APP_BROWSER"
+          ],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.app.launch.LauncherPink",
+      "type": "activity-alias",
+      "exported": true,
+      "enabled": false,
+      "permission": null,
+      "target_activity": "com.duckduckgo.app.launch.LaunchBridgeActivity",
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.MAIN"
+          ],
+          "categories": [
+            "android.intent.category.LAUNCHER",
+            "android.intent.category.APP_BROWSER"
+          ],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.app.launch.Launcher",
+      "type": "activity-alias",
+      "exported": true,
+      "enabled": true,
+      "permission": null,
+      "target_activity": "com.duckduckgo.app.launch.LaunchBridgeActivity",
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.MAIN"
+          ],
+          "categories": [
+            "android.intent.category.LAUNCHER",
+            "android.intent.category.APP_BROWSER"
+          ],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.app.systemsearch.SystemSearchActivity",
+      "type": "activity",
+      "exported": true,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.ASSIST"
+          ],
+          "categories": [
+            "android.intent.category.DEFAULT"
+          ],
+          "data": []
+        },
+        {
+          "actions": [
+            "com.duckduckgo.mobile.android.NEW_SEARCH"
+          ],
+          "categories": [
+            "android.intent.category.DEFAULT"
+          ],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.app.onboarding.ui.OnboardingActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.browser.customtabs.CustomTabActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.widget.DuckAiPinShortcutActivity",
+      "type": "activity",
+      "exported": true,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.CREATE_SHORTCUT"
+          ],
+          "categories": [
+            "android.intent.category.DEFAULT"
+          ],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.app.dispatchers.IntentDispatcherActivity",
+      "type": "activity",
+      "exported": true,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.VIEW"
+          ],
+          "categories": [
+            "android.intent.category.BROWSABLE",
+            "android.intent.category.DEFAULT"
+          ],
+          "data": [
+            {
+              "scheme": "https"
+            },
+            {
+              "scheme": "http"
+            },
+            {
+              "scheme": "duck"
+            }
+          ]
+        },
+        {
+          "actions": [
+            "android.intent.action.VIEW"
+          ],
+          "categories": [
+            "android.intent.category.BROWSABLE",
+            "android.intent.category.DEFAULT"
+          ],
+          "data": [
+            {
+              "scheme": "https"
+            },
+            {
+              "scheme": "http"
+            },
+            {
+              "scheme": "duck"
+            },
+            {
+              "mimeType": "text/html"
+            },
+            {
+              "mimeType": "text/plain"
+            },
+            {
+              "mimeType": "application/xhtml+xml"
+            }
+          ]
+        },
+        {
+          "actions": [
+            "android.intent.action.SEND"
+          ],
+          "categories": [
+            "android.intent.category.DEFAULT"
+          ],
+          "data": [
+            {
+              "mimeType": "text/plain"
+            }
+          ]
+        },
+        {
+          "actions": [
+            "android.nfc.action.NDEF_DISCOVERED"
+          ],
+          "categories": [
+            "android.intent.category.DEFAULT",
+            "android.intent.category.BROWSABLE"
+          ],
+          "data": [
+            {
+              "scheme": "https"
+            },
+            {
+              "scheme": "http"
+            },
+            {
+              "scheme": "duck"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.app.dispatchers.PdfViewerHandler",
+      "type": "activity-alias",
+      "exported": true,
+      "enabled": false,
+      "permission": null,
+      "target_activity": "com.duckduckgo.app.dispatchers.IntentDispatcherActivity",
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.VIEW"
+          ],
+          "categories": [
+            "android.intent.category.DEFAULT",
+            "android.intent.category.BROWSABLE"
+          ],
+          "data": [
+            {
+              "scheme": "content"
+            },
+            {
+              "mimeType": "application/pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.app.browser.BrowserActivity",
+      "type": "activity",
+      "exported": true,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.SelectedTextSearchActivity",
+      "type": "activity",
+      "exported": true,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.PROCESS_TEXT"
+          ],
+          "categories": [
+            "android.intent.category.DEFAULT"
+          ],
+          "data": [
+            {
+              "mimeType": "text/plain"
+            }
+          ]
+        },
+        {
+          "actions": [
+            "android.intent.action.WEB_SEARCH"
+          ],
+          "categories": [
+            "android.intent.category.DEFAULT"
+          ],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.app.tabs.ui.TabSwitcherActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.settings.SettingsActivity",
+      "type": "activity",
+      "exported": true,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.service.quicksettings.action.QS_TILE_PREFERENCES"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.app.survey.ui.SurveyActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.widget.ui.AddWidgetInstructionsActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.about.AboutDuckDuckGoActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.desktopbrowser.GetDesktopBrowserActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.fire.fireproofwebsite.ui.FireproofWebsitesActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.fire.FireActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.global.shortcut.FireShortcutTrampolineActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.icon.ui.ChangeIconActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.privacy.ui.AllowListActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.globalprivacycontrol.ui.GlobalPrivacyControlActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.accessibility.AccessibilityActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.email.ui.EmailProtectionUnsupportedActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.settings.FireAnimationActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.browser.webview.WebViewActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.privatesearch.PrivateSearchActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.generalsettings.GeneralSettingsActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.generalsettings.showonapplaunch.ShowOnAppLaunchActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.webtrackingprotection.WebTrackingProtectionActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.firebutton.AutomaticDataClearingSettingsActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.firebutton.DataClearingSettingsActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.permissions.PermissionsActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.appearance.AppearanceActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.WidgetThemeConfiguration",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.appwidget.action.APPWIDGET_CONFIGURE"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.voice.impl.listeningmode.VoiceSearchActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.browser.pdf.PdfViewerActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.browser.threatprotection.ThreatProtectionSettingsActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.customtabs.impl.service.DuckDuckGoCustomTabService",
+      "type": "service",
+      "exported": true,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.support.customtabs.action.CustomTabsService"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.app.notification.NotificationHandlerService",
+      "type": "service",
+      "exported": null,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.browser.shortcut.ShortcutReceiver",
+      "type": "receiver",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.desktopbrowser.GetDesktopBrowserShareBroadcastReceiver",
+      "type": "receiver",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.widget.SearchWidget",
+      "type": "receiver",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.appwidget.action.APPWIDGET_UPDATE"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.widget.SearchWidgetLight",
+      "type": "receiver",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.appwidget.action.APPWIDGET_UPDATE"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.widget.SearchOnlyWidget",
+      "type": "receiver",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.appwidget.action.APPWIDGET_UPDATE"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.widget.SearchAndFavoritesWidget",
+      "type": "receiver",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.appwidget.action.APPWIDGET_UPDATE"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.widget.VoiceSearchWidgetUpdaterReceiver",
+      "type": "receiver",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.LOCALE_CHANGED"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.widget.DuckAiSearchWidgetUpdaterReceiver",
+      "type": "receiver",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.appwidget.action.APPWIDGET_UPDATE"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.duckchat.internal.DuckAiUrlSettingsActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.duckchat.internal.DuckAiDevActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.duckchat.impl.ui.settings.DuckChatSettingsActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.duckchat.impl.ui.settings.DuckAiShortcutSettingsActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.duckchat.impl.history.ChatHistoryActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.duckchat.impl.subscription.DuckAiPaidSettingsActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.duckchat.impl.ui.nativeinput.edit.EditPromptActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.duckchat.impl.ui.DuckChatVoiceMicrophoneService",
+      "type": "service",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.newtabpage.impl.settings.NewTabSettingsActivity",
+      "type": "activity",
+      "exported": true,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.voice.impl.language.LocaleChangeReceiver",
+      "type": "receiver",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.LOCALE_CHANGED"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.site.permissions.impl.ui.SitePermissionsActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.site.permissions.impl.ui.permissionsperwebsite.PermissionsPerWebsiteActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.sync.internal.ui.SyncInternalSettingsActivity",
+      "type": "activity",
+      "exported": true,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.sync.internal.ui.SyncV2PairingDebugActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.sync.impl.ui.SyncActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.sync.impl.promotion.SyncGetOnOtherPlatformsActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.sync.impl.ui.setup.SetupAccountActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.sync.impl.ui.SyncLoginActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.sync.impl.ui.SyncWithAnotherDeviceActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.sync.impl.ui.SyncConnectActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.sync.impl.ui.EnterCodeActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.sync.impl.ui.DeviceUnsupportedActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.journeyapps.barcodescanner.CaptureActivity",
+      "type": "activity",
+      "exported": null,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.sync.impl.ui.v2.SyncActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.sync.impl.ui.v2.SyncThisDeviceActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.sync.impl.ui.v2.RecoveryCodeActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.sync.impl.ui.v2.EditDeviceActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.sync.impl.ui.v2.ReadSyncCodeActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.sync.impl.ui.v2.DisplayQrCodeActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.sync.impl.ui.v2.ProcessSyncCodeActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.sync.impl.ui.v2.RecoverSyncedDataActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.sync.impl.ui.v2.PreviousSessionReadyActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.settings.impl.SettingsWebViewActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.subscriptions.internal.SubscriptionsInternalSettingsActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.subscriptions.impl.ui.SubscriptionsWebViewActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.subscriptions.impl.ui.SubscriptionSettingsActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.subscriptions.impl.onboarding.SubscriptionOnboardingActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.subscriptions.impl.onboarding.features.SubscriptionOnboardingFeatureInfoActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.subscriptions.impl.ui.RestoreSubscriptionActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.subscriptions.impl.ui.ChangePlanActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.subscriptions.impl.pir.PirActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.subscriptions.impl.feedback.SubscriptionFeedbackActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.adblocking.impl.duckplayer.DuckPlayerSettingsActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.adblocking.impl.ui.AdBlockingSettingsActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.adblocking.impl.ui.AdBlockingSettingsV2Activity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.anr.internal.feature.CrashANRsInternalSettingsActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.autofill.internal.AutofillInternalSettingsActivity",
+      "type": "activity",
+      "exported": true,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.autofill.impl.ui.credential.management.importpassword.ImportPasswordsActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.autofill.impl.ui.credential.management.importpassword.desktopapp.ImportPasswordsGetDesktopAppActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.autofill.impl.email.incontext.EmailProtectionInContextSignupActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.autofill.impl.importing.gpm.webflow.ImportGooglePasswordsWebFlowActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.autofill.impl.importing.takeout.webflow.ImportGoogleBookmarksWebFlowActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.autofill.impl.ui.credential.management.AutofillManagementActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.autofill.impl.ui.settings.AutofillSettingsActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.autofill.impl.service.AutofillProviderFillSuggestionActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.autofill.impl.service.AutofillProviderChooseActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.autofill.impl.service.RealAutofillService",
+      "type": "service",
+      "exported": true,
+      "enabled": false,
+      "permission": "android.permission.BIND_AUTOFILL_SERVICE",
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.service.autofill.AutofillService"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.vpn.internal.feature.rules.ExceptionRulesDebugActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.vpn.internal.feature.VpnInternalSettingsActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.mobile.android.vpn.worker.VpnRemoteWorkerService",
+      "type": "service",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.mobile.android.vpn.service.VpnPermissionRequesterActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.mobile.android.vpn.ui.onboarding.VpnOnboardingActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.mobile.android.vpn.ui.privacyreport.DeviceShieldAppTrackersInfo",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.mobile.android.vpn.ui.tracker_activity.DeviceShieldTrackerActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.mobile.android.vpn.ui.tracker_activity.DeviceShieldMostRecentActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.mobile.android.vpn.apps.ui.ManageRecentAppsProtectionActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.mobile.android.vpn.apps.ui.TrackingProtectionExclusionListActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.mobile.android.vpn.breakage.ReportBreakageAppListActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.mobile.android.vpn.breakage.ReportBreakageCategorySingleChoiceActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.mobile.android.vpn.ui.tracker_activity.AppTPCompanyTrackersActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.mobile.android.vpn.service.state.VpnStateMonitorService",
+      "type": "service",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.mobile.android.vpn.service.TrackerBlockingVpnService",
+      "type": "service",
+      "exported": false,
+      "enabled": null,
+      "permission": "android.permission.BIND_VPN_SERVICE",
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.net.VpnService"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.mobile.android.vpn.service.DeviceShieldTileService",
+      "type": "service",
+      "exported": true,
+      "enabled": null,
+      "permission": "android.permission.BIND_QUICK_SETTINGS_TILE",
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.service.quicksettings.action.QS_TILE"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "androidx.work.multiprocess.RemoteWorkerService",
+      "type": "service",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.mobile.android.vpn.service.VpnReminderReceiver",
+      "type": "receiver",
+      "exported": false,
+      "enabled": false,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "com.duckduckgo.vpn.internaltesters.reminder"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.mobile.android.vpn.heartbeat.VpnHeartbeatDeviceBootMonitor",
+      "type": "receiver",
+      "exported": false,
+      "enabled": false,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.BOOT_COMPLETED",
+            "android.intent.action.REBOOT"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.mobile.android.vpn.appupdates.AppUpdateReceiver",
+      "type": "receiver",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.MY_PACKAGE_REPLACED"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.mobile.android.vpn.service.VpnActionReceiver",
+      "type": "receiver",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "com.duckduckgo.vpn.ACTION_VPN_SNOOZE_END",
+            "com.duckduckgo.vpn.ACTION_VPN_DISABLE",
+            "com.duckduckgo.vpn.ACTION_VPN_SNOOZE"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.mobile.android.vpn.service.notification.PersistentNotificationDismissedReceiver",
+      "type": "receiver",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "com.duckduckgo.vpn.ACTION_VPN_PERSISTENT_NOTIF_DISMISSED"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.examplefeature.internal.ui.FeatureToggleInventoryActivity",
+      "type": "activity",
+      "exported": true,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.pir.internal.settings.PirDevSettingsActivity",
+      "type": "activity",
+      "exported": null,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.pir.internal.settings.PirResultsActivity",
+      "type": "activity",
+      "exported": null,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.pir.internal.settings.PirDevScanActivity",
+      "type": "activity",
+      "exported": null,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.pir.internal.settings.PirDevOptOutActivity",
+      "type": "activity",
+      "exported": null,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.pir.internal.settings.PirDevWebViewActivity",
+      "type": "activity",
+      "exported": null,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.pir.internal.settings.PirDevBrokerConfigActivity",
+      "type": "activity",
+      "exported": null,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.pir.internal.settings.PirDevEmailActivity",
+      "type": "activity",
+      "exported": null,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.pir.impl.dashboard.PirDashboardWebViewActivity",
+      "type": "activity",
+      "exported": null,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.pir.impl.scan.PirForegroundScanService",
+      "type": "service",
+      "exported": false,
+      "enabled": true,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.pir.impl.optout.PirForegroundOptOutService",
+      "type": "service",
+      "exported": false,
+      "enabled": true,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.pir.impl.scan.PirRemoteWorkerService",
+      "type": "service",
+      "exported": false,
+      "enabled": null,
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.remote.messaging.internal.feature.RMFInternalSettingsActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.remote.messaging.impl.modal.ModalSurfaceActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.remote.messaging.impl.newtab.SharePromoLinkBroadCastReceiver",
+      "type": "receiver",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.downloads.impl.DownloadsActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.autoconsent.impl.ui.AutoconsentSettingsActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.autoconsent.impl.prompt.CookiePopupOptInActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.networkprotection.internal.feature.NetPInternalSettingsActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.networkprotection.internal.feature.system_apps.NetPSystemAppsExclusionListActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.networkprotection.impl.management.NetworkProtectionManagementActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.networkprotection.impl.exclusion.ui.NetpAppExclusionListActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.networkprotection.impl.settings.NetPVpnSettingsActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.networkprotection.impl.settings.geoswitching.NetpGeoswitchingActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.networkprotection.impl.settings.custom_dns.VpnCustomDnsActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.networkprotection.impl.notification.NetPEnableReceiver",
+      "type": "receiver",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "com.duckduckgo.networkprotection.notification.ACTION_NETP_ENABLE",
+            "com.duckduckgo.vpn.ACTION_VPN_SNOOZE_CANCEL"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.networkprotection.impl.quickaccess.VpnTileService",
+      "type": "service",
+      "exported": true,
+      "enabled": null,
+      "permission": "android.permission.BIND_QUICK_SETTINGS_TILE",
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.service.quicksettings.action.QS_TILE"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.duckduckgo.savedsites.internal.SavedSitesInternalSettingsActivity",
+      "type": "activity",
+      "exported": true,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.savedsites.impl.bookmarks.BookmarksActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.savedsites.impl.folders.BookmarkFoldersActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.daxprompts.impl.ui.DaxPromptBrowserComparisonActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.privacy.config.internal.PrivacyConfigInternalSettingsActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.macos.impl.MacOsActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.macos.impl.MacOsLinkShareBroadcastReceiver",
+      "type": "receiver",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.privacy.dashboard.impl.ui.PrivacyDashboardHybridActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.windows.impl.ui.WindowsActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.windows.impl.WindowsLinkShareBroadcastReceiver",
+      "type": "receiver",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.app.attributed.metrics.internal.ui.AttributedMetricsDevSettingsActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.feedback.impl.ui.common.FeedbackActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.serp.logos.impl.ui.SerpEasterEggLogoActivity",
+      "type": "activity",
+      "exported": null,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.common.ui.internal.ui.AppComponentsActivity",
+      "type": "activity",
+      "exported": true,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.duckduckgo.traces.impl.AppStartUpTracer",
+      "type": "provider",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "androidx.core.widget.RemoteViewsCompatService",
+      "type": "service",
+      "exported": null,
+      "enabled": null,
+      "permission": "android.permission.BIND_REMOTEVIEWS",
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "androidx.pdf.service.PdfDocumentService",
+      "type": "service",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "androidx.pdf.service.PdfDocumentServiceImpl",
+      "type": "service",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.android.billingclient.api.ProxyBillingActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.android.billingclient.api.ProxyBillingActivityV2",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.google.android.gms.common.api.GoogleApiActivity",
+      "type": "activity",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "androidx.work.impl.background.systemalarm.SystemAlarmService",
+      "type": "service",
+      "exported": false,
+      "enabled": "@0x7f050003",
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "androidx.work.impl.background.systemjob.SystemJobService",
+      "type": "service",
+      "exported": true,
+      "enabled": "@0x7f050005",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "androidx.work.impl.foreground.SystemForegroundService",
+      "type": "service",
+      "exported": false,
+      "enabled": "@0x7f050004",
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+      "type": "receiver",
+      "exported": false,
+      "enabled": true,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+      "type": "receiver",
+      "exported": false,
+      "enabled": false,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.ACTION_POWER_CONNECTED",
+            "android.intent.action.ACTION_POWER_DISCONNECTED"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+      "type": "receiver",
+      "exported": false,
+      "enabled": false,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.BATTERY_OKAY",
+            "android.intent.action.BATTERY_LOW"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+      "type": "receiver",
+      "exported": false,
+      "enabled": false,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.DEVICE_STORAGE_LOW",
+            "android.intent.action.DEVICE_STORAGE_OK"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+      "type": "receiver",
+      "exported": false,
+      "enabled": false,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.net.conn.CONNECTIVITY_CHANGE"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+      "type": "receiver",
+      "exported": false,
+      "enabled": false,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.BOOT_COMPLETED",
+            "android.intent.action.TIME_SET",
+            "android.intent.action.TIMEZONE_CHANGED"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+      "type": "receiver",
+      "exported": false,
+      "enabled": "@0x7f050003",
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "androidx.work.impl.background.systemalarm.UpdateProxies"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+      "type": "receiver",
+      "exported": true,
+      "enabled": true,
+      "permission": "android.permission.DUMP",
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "androidx.work.multiprocess.RemoteWorkManagerService",
+      "type": "service",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "androidx.room.MultiInstanceInvalidationService",
+      "type": "service",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "androidx.compose.ui.tooling.PreviewActivity",
+      "type": "activity",
+      "exported": true,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "leakcanary.internal.LeakCanaryFileProvider",
+      "type": "provider",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "leakcanary.internal.activity.LeakActivity",
+      "type": "activity",
+      "exported": true,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.VIEW"
+          ],
+          "categories": [
+            "android.intent.category.DEFAULT",
+            "android.intent.category.BROWSABLE"
+          ],
+          "data": [
+            {
+              "scheme": "file"
+            },
+            {
+              "scheme": "content"
+            },
+            {
+              "mimeType": "*/*"
+            },
+            {
+              "host": "*"
+            },
+            {
+              "pathPattern": ".*\\\\.hprof"
+            },
+            {
+              "pathPattern": ".*\\\\..*\\\\.hprof"
+            },
+            {
+              "pathPattern": ".*\\\\..*\\\\..*\\\\.hprof"
+            },
+            {
+              "pathPattern": ".*\\\\..*\\\\..*\\\\..*\\\\.hprof"
+            },
+            {
+              "pathPattern": ".*\\\\..*\\\\..*\\\\..*\\\\..*\\\\.hprof"
+            },
+            {
+              "pathPattern": ".*\\\\..*\\\\..*\\\\..*\\\\..*\\\\..*\\\\.hprof"
+            },
+            {
+              "pathPattern": ".*\\\\..*\\\\..*\\\\..*\\\\..*\\\\..*\\\\..*\\\\.hprof"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "leakcanary.internal.activity.LeakLauncherActivity",
+      "type": "activity-alias",
+      "exported": true,
+      "enabled": "@0x7f050007",
+      "permission": null,
+      "target_activity": "leakcanary.internal.activity.LeakActivity",
+      "intent_filters": [
+        {
+          "actions": [
+            "android.intent.action.MAIN"
+          ],
+          "categories": [
+            "android.intent.category.LAUNCHER",
+            "android.intent.category.LEANBACK_LAUNCHER"
+          ],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "leakcanary.internal.RequestPermissionActivity",
+      "type": "activity",
+      "exported": null,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "leakcanary.internal.NotificationReceiver",
+      "type": "receiver",
+      "exported": null,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "leakcanary.internal.MainProcessAppWatcherInstaller",
+      "type": "provider",
+      "exported": false,
+      "enabled": "@0x7f05000a",
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "leakcanary.internal.PlumberInstaller",
+      "type": "provider",
+      "exported": false,
+      "enabled": "@0x7f050009",
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "androidx.profileinstaller.ProfileInstallReceiver",
+      "type": "receiver",
+      "exported": true,
+      "enabled": true,
+      "permission": "android.permission.DUMP",
+      "target_activity": null,
+      "intent_filters": [
+        {
+          "actions": [
+            "androidx.profileinstaller.action.INSTALL_PROFILE"
+          ],
+          "categories": [],
+          "data": []
+        },
+        {
+          "actions": [
+            "androidx.profileinstaller.action.SKIP_FILE"
+          ],
+          "categories": [],
+          "data": []
+        },
+        {
+          "actions": [
+            "androidx.profileinstaller.action.SAVE_PROFILE"
+          ],
+          "categories": [],
+          "data": []
+        },
+        {
+          "actions": [
+            "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+          ],
+          "categories": [],
+          "data": []
+        }
+      ]
+    },
+    {
+      "name": "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+      "type": "service",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    },
+    {
+      "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+      "type": "receiver",
+      "exported": false,
+      "enabled": null,
+      "permission": null,
+      "target_activity": null,
+      "intent_filters": []
+    }
+  ]
+}
