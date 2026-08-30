@@ -7,15 +7,15 @@ Fastbot 已知坑：手势导航会把滑动事件误判为返回手势，Kea2/F
 | 项 | 值 |
 | --- | --- |
 | 名称 | `Kea2_Test` |
-| API / ABI | 34 / x86_64（`google_apis_playstore` 镜像） |
+| API / ABI | 34 / x86_64（`google_apis` 镜像，见下） |
 | 设备 profile | pixel_6 |
 | RAM | 4096 MB（要求 2G 以上） |
 | 导航 | 三键导航（`navigation_mode=0`，boot 时强制） |
 
-镜像未安装时先执行：
+镜像用 `google_apis` 而非 `google_apis_playstore`：playstore 镜像是 production build，`adb root` 会被 adbd 拒绝，无法写模拟器 hosts（issue #5 的 tracker 测试域名需要，见 `docs/test-pages.md`）。镜像未安装时先执行：
 
 ```bash
-sdkmanager "system-images;android-34;google_apis_playstore;x86_64"
+sdkmanager "system-images;android-34;google_apis;x86_64"
 ```
 
 ## 命令
@@ -34,7 +34,7 @@ scripts/kea2-avd.sh stop              # 关闭
 
 ```bash
 avdmanager create avd --name Kea2_Test --device pixel_6 \
-  -k "system-images;android-34;google_apis_playstore;x86_64" --force
+  -k "system-images;android-34;google_apis;x86_64" --force
 sed -i 's/^hw.ramSize=.*/hw.ramSize=4096/' ~/.android/avd/Kea2_Test.avd/config.ini
 emulator -avd Kea2_Test -no-snapshot-save &
 adb wait-for-device

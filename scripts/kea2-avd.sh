@@ -13,7 +13,9 @@ set -euo pipefail
 
 AVD_NAME="Kea2_Test"
 DEVICE="pixel_6"
-IMAGE="system-images;android-34;google_apis_playstore;x86_64"
+# google_apis（非 playstore）镜像：playstore 是 production build，adb root 拒绝，
+# 无法写模拟器 hosts（issue #5 的 tracker 测试域名需要）
+IMAGE="system-images;android-34;google_apis;x86_64"
 RAM_MB=4096
 BOOT_TIMEOUT_S=240
 
@@ -92,7 +94,8 @@ force_three_button_nav() {
 }
 
 boot() {
-  local -a args=(-avd "$AVD_NAME" -no-snapshot-save)
+  # -writable-system：adb remount 需要（dm-verity 关闭），写模拟器 hosts 用（issue #5）
+  local -a args=(-avd "$AVD_NAME" -no-snapshot-save -writable-system)
   [[ "${1:-}" == "--headless" ]] && args+=(-no-window)
   checked_running_avd
   if [[ -n "$RUNNING_AVD" ]]; then

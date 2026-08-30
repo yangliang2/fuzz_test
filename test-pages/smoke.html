@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>tracker smoke</title>
+</head>
+<body>
+<p>tracker 拦截 oracle 冒烟页（issue #5，手动验证用）。</p>
+<p>在 DDG 中打开本页（<code>http://www.first-party.site:8800/_smoke.html</code>）后查服务日志（test-pages/.serve.log）：</p>
+<ul>
+  <li><code>/_smoke/good.js</code> 有命中（200/404 均可）→ good.third-party.site 子资源放行 ✓</li>
+  <li><code>/_smoke/tracker.js</code> 无命中 → bad.third-party.site 子资源被 DDG 拦截 ✓</li>
+</ul>
+<p>对照：在无拦截的浏览器（如 Chrome）中两个都应有命中。注意端口写死 8800（serve.sh 默认端口）。</p>
+<img src="http://good.third-party.site:8800/_smoke/good.js" alt="good">
+<img src="http://bad.third-party.site:8800/_smoke/tracker.js" alt="bad">
+</body>
+</html>

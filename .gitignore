@@ -1,0 +1,7 @@
+# privacy-test-pages 本地 clone 与运行态文件（issue #5）
+test-pages/privacy-test-pages/
+test-pages/.serve.pid
+test-pages/.serve.log
+
+# Python bytecode
+__pycache__/
